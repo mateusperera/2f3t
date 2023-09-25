@@ -2,3 +2,27 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
 }
+.calculadora  {
+    background-color: cadetblue;
+    padding: 8px;
+    width: 220px;
+    text-align: center;
+}
+.display_calc {
+    background-color: transparent;
+    text-align: center;
+}
+#resultado {
+    padding: 2px;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+}
+button {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+#bnt_igual {
+    background-color: red;
+}
