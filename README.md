@@ -1,2 +1,3 @@
-# DUPLA
-## JOAO MATEUS - 20 --- PEDRO AUGUSTO - 30
+# 2f3t
+##Pedro Augusto 30
+##João Matheus 20
