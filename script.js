@@ -171,3 +171,12 @@ const set_valor_c =  ()=>{
     calcula_eq2g();
 
 }
+let num = 0;
+const mudar_imagem = ()=>{
+    num++;
+    setTimeout (()=>{
+    document.getElementById("figura").scr = "./img/imagem"+num+".jpg";
+    if (num == 3) num = 0;
+    mudar_imagem();
+},5000);
+}
