@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressões</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+   <section class="pa">
+    <div class="explicação">
+        <h1>Progressão aritimetica (PA)</h1><BR>
+            Geral=a<sub>1</sub>, a <sub>2,</sub>a<sub>3</sub>,...,a<sub>n</sub><br>
+            Razão(r):r = a <sub>2</sub> - a <sub>1</sub><br>
+            Último termo: a <sub>n</sub>= a <sub>1</sub>+ (n-1).r <br>
+    </div>
+    <div class="calculaPA">
+        r =<input type="number" onchange="set_razao()" id="razao"><br>
+        a<sub>1</sub>=<input type="number" onchange="set_a1()" id="a1"><br>
+        a<sub>n</sub>=<input type="number" readonly id="an"><br>
+        n =<input type="number" onchange="set_n()" id="n"><br>
+
+        PA = <span id="pa"></span>
+
+    </div>
+
+   </section> 
+</body>
+</html>

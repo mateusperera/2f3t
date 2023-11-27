@@ -5,30 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./js/script.js"></script>
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
 
- <select name="sinal_a" id="a">
-    <option select value="+">+</option>
+    <select onchange="set_sinal_a()" name="sinal_a" id="a">
     <option value="-">-</option>
- </select>
-<input class="entrada" type="number" id="valor_a">
+    <option value="+">+</option>
+</select>
+<input id="valor_a" class="entrada" onchange="set_valor_a()" type="number">
 <span>x<sup>2</sup></span>
 
-<select name="sinal_b" id="b">
-    <option select value="+">+</option>
+
+<select onchange="set_sinal_b()" name="sinal_b" id="b">
     <option value="-">-</option>
- </select>
-<input class="entrada" type="number" id="valor_a">
+    <option value="+">+</option>
+</select>
+<input id="valor_b" class="entrada" onchange="set_valor_b()" type="number">
 <span>x</span>
 
-<select name="sinal_c" id="c">
-    <option select value="+">+</option>
+
+<select onchange="set_sinal_c()" name="sinal_c" id="c">
     <option value="-">-</option>
- </select>
-<input class="entrada" type="number" id="valor_a">
-<span> = 0</span>
+    <option value="+">+</option>
+</select>
+<input id="valor_c" class="entrada" onchange="set_valor_c()" type="number">
+<h5><span id="delta" ></span></h5>
+
+<span id="raiz" > = 0 </span>
 
 
 </body>

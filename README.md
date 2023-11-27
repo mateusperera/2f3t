@@ -1,3 +1,2 @@
 # 2f3t
-##Pedro Augusto 30
-##João Matheus 20
+##Joao Mateus e Pedro Auguto n20 e n30
